@@ -34,7 +34,7 @@ function johnLennonFacts(facts) {
     "He hated the sound of his own voice"
   ];
   while (i < facts.length + 1){
-    facts[i] = `"${facts[i]}!!!"`;
+    facts[i] = `${facts[i]} + "!!!"`;
     i++;
   }
   return facts
