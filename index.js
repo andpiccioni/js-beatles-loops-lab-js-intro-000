@@ -32,7 +32,7 @@ const facts = [
 ];
 
 function johnLennonFacts(facts) {
-  while (i < facts.length + 1){
+  while (i < 5){
     facts[i] = `"${facts[i]} !!!"`;
     i++;
   }
