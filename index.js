@@ -33,7 +33,7 @@ var facts = [
 ];
 
 function johnLennonFacts(facts) {
-  while (i < facts.length + 1){
+  while (i < facts.length){
     facts[i] = `${facts[i]} !!!`;
     i++;
   }
