@@ -24,15 +24,16 @@ function iLoveTheBeatles(i){
 }
 
 
-const facts = [
-  "He was the last Beatle to learn to drive",
-  "He was never a vegetarian",
-  "He was a choir boy and boy scout",
-  "He hated the sound of his own voice"
-];
+
 
 function johnLennonFacts(facts) {
-  while (i < 5){
+  const facts = [
+    "He was the last Beatle to learn to drive",
+    "He was never a vegetarian",
+    "He was a choir boy and boy scout",
+    "He hated the sound of his own voice"
+  ];
+  while (i < facts.length + 1){
     facts[i] = `"${facts[i]} !!!"`;
     i++;
   }
