@@ -12,7 +12,6 @@ function theBeatlesPlay(musician, instrument){
 
 
 
-var n = 17
 function iLoveTheBeatles(n){
   var i = 0
   var emptArray = []
