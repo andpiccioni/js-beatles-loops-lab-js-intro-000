@@ -15,9 +15,8 @@ function theBeatlesPlay(musician, instrument){
 function iLoveTheBeatles(i){
   var emptArray = []
   do {
-    emptArray.push("I love the Beatles!");
+    return emptArray.push("I love the Beatles!");
     i++;
-    return emptArray
   }
   while (i < 15)
 }
