@@ -12,12 +12,11 @@ function theBeatlesPlay(musician, instrument){
 
 
 
-function iLoveTheBeatles(n){
-  var i = n
+function iLoveTheBeatles(i){
   var emptArray = []
   do {
     emptArray[i] = "I love the Beatles!";
     i++;
   }
-  while (n < 15)
+  while (i < 15)
 }
