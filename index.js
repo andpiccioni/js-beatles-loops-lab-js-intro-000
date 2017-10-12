@@ -9,13 +9,6 @@ function theBeatlesPlay(musician, instrument){
   return beatArray
 }
 
-const facts = [
-  "He was the last Beatle to learn to drive",
-  "He was never a vegetarian",
-  "He was a choir boy and boy scout",
-  "He hated the sound of his own voice"
-];
-
 
 
 
@@ -24,7 +17,7 @@ function iLoveTheBeatles(n){
   var emptArray = []
   var n = 0
   do {
-    emptArray.push("I love the Beatles!");
+    emptArray[n] = "I love the Beatles!";
     n++;
   }
   while (n < 15)
