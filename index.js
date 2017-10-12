@@ -13,7 +13,7 @@ function theBeatlesPlay(musician, instrument){
 
 
 function iLoveTheBeatles(n){
-  var i = 0
+  var i = n
   var emptArray = []
   do {
     emptArray[i] = "I love the Beatles!";
